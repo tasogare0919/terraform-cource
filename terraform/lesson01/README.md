@@ -39,7 +39,7 @@ provider "aws" {
 }
 ```
 
-`terraform init`をするためには`terraform-private-course`配下で`make init` を実行します。実行すると下記の結果がでるはずです。`Terraform has been successfully initialized!`が出ていれば完了です。
+`terraform init`をするためには`terraform-study-contents`配下で`make init` を実行します。実行すると下記の結果がでるはずです。`Terraform has been successfully initialized!`が出ていれば完了です。
 
 ```sh
 % make init
