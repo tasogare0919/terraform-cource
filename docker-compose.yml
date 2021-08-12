@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+    terraform:
+        image: hashicorp/terraform:1.0.0
+        container_name: terraform
+        volumes:
+            - ./terraform/lesson01:/terraform
+        env_file: .env
+        working_dir: /terraform

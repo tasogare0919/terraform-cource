@@ -1,10 +1,12 @@
+# terraform-private-course
+スナックミーのTerraform講座で使うリポジトリ
+
 # 事前準備
 下記の作業は事前に行なってください。
 
 * AWS アカウントの発行
 * AWS アクセスキー・シークレットアクセスキーの発行
   * Administrator の権限をつけた IAM ユーザーを作ってください
-* AWS CLI 導入およびセットアップ
 * Visual Studio Code 
 * Visual Sudio Code の [Terrform プラグイン](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 
