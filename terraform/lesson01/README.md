@@ -12,6 +12,14 @@
 ```
 
 Terraform の実行コマンドは Makefile にまとめているため `make xxx` と実行すれば Terraform のコマンドが動かせます。詳細はMakefile の中身を確認してください。
+また、`.env_sample` を複製して`.env`を作ってください。アクセスキーとシークレットアクセスキーをコピペしてください。
+
+```sh
+AWS_ACCESS_KEY_ID  = xxxx(アクセスキーを記載)
+AWS_SECRET_ACCESS_KEY = xxxx(シークレットアクセスキーを記載)
+AWS_DEFAULT_REGION = ap-northeast-1
+```
+
 ## 1. terraform init の実行
 まずは、Terraform の初期化(最初だけ)を行います。`main.tf`を開いてもらうと下記の部分が初期化を行うために必要な部分です。
 AWS のプロバイダーを使うことと利用するリージョン(東京)を指定しています。
